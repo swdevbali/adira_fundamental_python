@@ -103,3 +103,18 @@ print(customer1_alamat['Kecamatan'])
 print(customer1_alamat['City'])
 print(customer1_alamat['Province'])
 print(customer1_alamat['Zip Code'])
+
+#cetak customer 1 dari list/array
+print(customers[0])
+
+#simpan customer di array
+# customers_by_name = dict() # spt ini bisa
+customer_salary_by_name = {}  # ini jg bisa
+customer_salary_by_name[customer1_nama] = customer1_gaji # KVP = Key Value Pairs
+customer_salary_by_name[customer2_nama] = customer2_gaji
+customer_salary_by_name[customer3_nama] = customer3_gaji
+
+print('Alamat customer by name')
+for name in customer_salary_by_name:
+    gaji = customer_salary_by_name[name]
+    print(f'{name} gaji =  {gaji}')
