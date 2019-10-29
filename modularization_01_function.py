@@ -74,3 +74,4 @@ def check_gaji(name, gaji):
 check_gaji(customer1_nama, customer1_gaji)
 check_gaji(customer2_nama, customer2_gaji)
 check_gaji(customer3_nama, customer3_gaji)
+
